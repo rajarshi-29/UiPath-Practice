@@ -1,0 +1,188 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="DesktopAppAutomation" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="DesktopAppAutomation_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="DesktopAppAutomation" sap:VirtualizedContainerService.HintSize="854.6666666666666,1638" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Application: " HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,893.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsDisplayNameAuto="True" ScopeGuid="cb0637f9-0e7e-4120-83e2-c0d0ccf7e49b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,636.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'button File Explorer pi…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cb0637f9-0e7e-4120-83e2-c0d0ccf7e49b" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="0RP0J7Ra4k26C6xCe78sAg" DesignTimeRectangle="894, 0, 66, 72" DesignTimeScaleFactor="1.5" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;uia automationid='Appid: Microsoft.Windows.Explorer' cls='Taskbar.TaskListButtonAutomationPeer' name='File Explorer pinned' /&gt;" FuzzySelectorArgument="&lt;uia automationid='Appid: Microsoft.Windows.Explorer' cls='Taskbar.TaskListButtonAutomationPeer' name='File Explorer pinned' role='button' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="5ae71494-f9d2-4123-bea1-17db5e6b5e57" InformativeScreenshot="3884007725a790a5c6772dae4b96f3fb.jpg" Reference="_4BHWmow1ku1g1DhI54yog/8if3JCrBmkq4J63hdWJZ6Q" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='Shell_TrayWnd' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Downloads (pinned)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cb0637f9-0e7e-4120-83e2-c0d0ccf7e49b" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="t144vsigMUuJ062Cs4eFnQ" DesignTimeRectangle="89, 453, 94, 48" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' /&gt;&lt;wnd cls='SysTreeView32' title='Navigation Pane' /&gt;&lt;ctrl name='Downloads (pinned)' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Control Host' cls='NamespaceTreeControl' title='Namespace Tree Control' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='SysTreeView32' title='Navigation Pane' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Downloads (pinned)' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Downloads (pinned)' /&gt;" Guid="fa0c3e99-a5e8-4a3d-aca0-62e032c36693" InformativeScreenshot="2282457644883b4407e800db786b7669.jpg" Reference="_4BHWmow1ku1g1DhI54yog/BLO-WSS4rkWASnckrm9-Ug" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Home - File Explorer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Double-click 'Rajarshi_Mukherjee_pfp'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cb0637f9-0e7e-4120-83e2-c0d0ccf7e49b" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="Ee6vn9iNAEqWarDF6rU_Qw" DesignTimeRectangle="305, 500, 405, 29" DesignTimeScaleFactor="1.5" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='2' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Items View' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='2' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Rajarshi_Mukherjee_pfp' /&gt;" Guid="722f94b3-e3f0-4f2f-aae7-4cb3a186b881" InformativeScreenshot="042437ebfbc48ae8b21373e86470c909.jpg" Reference="_4BHWmow1ku1g1DhI54yog/v_iRm10qzEGR2CiSf6dI5w" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='Downloads - File Explorer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 1008, 1920, 72" ContentHash="-6YzK8cZZk-COOxbWZkTiQ" FilePath="C:\Windows\explorer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAmESURBVGhD7Zl5WNR1Hsd/3iAgIFm5dqkbZaIiKiKK4FG6bde2W5vVmrVldtidZZdubWlp2V61ux3qamq1rRcwDPeADMyACsghp2M92yZYkS5zMMer5zu/38CcMkHr9kff53n/C6/Pe17z+X55kKQfz4+nf8ewWUozbJYMhs0SfUylYbN0g/fPPWunn/DuWeb9s8/K8QPSn5z9T8IPRH/SYdgsxXv/jv/p8QPxw8r7EsdE3pPTKvKuRMu7kqHlHSlNan1fouU9Oc0i7/YtrVtDOV16AzQ/DU2roOkJaHpMTuPD0LBSyf1wdAXU3wv190D93VB3J9TeAbW/gZrboeZWOHILHLkZqm+C6l9C1S+g6nqovBYqr8GqT+PzXTFfSE3vSBz9m0TdXyVq35aoeeu75/hH47DWroTmVVC/XAG5BWp+LUM4cxMc+ZUM48yNUC2gblByPVRdB1UCUIak8udyDl8Nh38GhxfD4UVwSI61bC6SANBtkihYJ5H3ikRukNG8PpyaDybSob8DWp6Bpse9wF3wLnAXvALeDe8Cv64X8MUK+FVw6MruSEd3XoGt+UX47E349A0lG+HTDXD8NTCsB8M6MLwMx16CYy9C61pofQFan4fmp2QVnODiY3cHd29dgLu3LsAV+G5wBb4bXIHvBnfBL4SDC5yRbM1roWU1NK5U8qCchgeg4T5oWAFHha8iy2Vnnd7eBbVLe8D7oosT3L11L3CnLt7gLvj5cHAekvPjr79LyZ1Qtwzq7lCyVNai9nYlt0HtrfKXrGZJ38F79dyPLl7gVIikITkb7gZ3wS+FOgHugg8EfjY8dwd3wadBRaozkmfrAty9dQF+mxf42ffcE9wFPxfKU5B610WA90MXv577W4uBPXfp0gMuw1M+RwwQCLy/uniDB6GLB7ivLq7WBTjls0GfjPT9et6bLgHAe/G8B1yB1yeDfhYOXZIY4Cx6HsRa9Od5D7jcukOfhEM3E4cuUQzwA/Xcjy4OZ+syuKNsBo6y6Uh916WPa7EPnrt0ccKXCfjpOEqnYS9NEAN469IbeJC6BL0WvcF9PfdsXQa3l07Fro1H6psuZwAPyvPAa/FMuriD27VTsJdMFgMECd7rWvw+PRetu4MrrWsF/BTs2snYSyZhOxCHdGZd+uh50GsxOM97WlfAS+KwHZiI7cAVYoB+rMWgPQ9+Lfrz3KWLO7iteAK24svFAH50CWoteoP3okvQnrt0cQcXuniCW4suw1oUi/RdPHccWozj4CLsFVdir1gop3wB9vL52Mvn9USfhl2fil0/V44uBbtuDnbdbOxlydjKZmErTcJWmohNOwObdjpW7TRs2gRsJVOxlbh57tH65diKZXBr0aVYNT8VA/TuuQC3V1yFreJKuvQLsegWYCqbj6l0HqbSNCWpmLRzMWlTlMzBVDJbSTKmA0mYDszEWJyIsXgGxqLpGIsSMGqm0qmJx1gUj0kzBXPRJLqK45yxFru37glu1YzHWjgOqTfPHYcWOcEtuoV0aufzTXEaXxWkcjJ/Lu15KbTnzaE9d7aSZNpzZ9Gek6RkJu3ZibRnz6Atezpt6mm0qRNoy5pKW1Y8J1STOaGaRJsqjvasOL5UT+TrnImczpuAqXACXZoJWItcuriBa8bRVTiWrsKLxQCBPRe6CHhz2QIn+OfqFJr3JlP3z5kc+SiRIx8mUr1rBtW7plO9axrVO0USlEylekc8VTumULVjElU74qj6QGQilduvoHL7BCq3XU7ltsuo2hZL9QeX0vBhLIbdl/FFRiwd2bF05sdiKYylSyPgZXCrE/wSugoupqvgQjGA/7XoOCiUWeiEP5mfSs7Oa1jy9y1c8pdazvnTMTl/bCXmDy3EvNnMyE1NjHyjkejXG4jeeJToDUeJerWeqPV1RK6rJfKVGka8fIQRv68m4qUqIl6sJPx3hwlfc4jwFw4S9nwF56/RcOP6DajfT+SzPeP5Kms8nXnjsRQIXdzBL6Ir/0K68scg+V+L8pfUopvPV4WpfLLt5gDgLYzc1MzIN5oY+Xoj0RsbZPDX6ol6NTB4hABfe4jwNTJ42PPlDH9Wz/BndISuLuPcZ/P4+O0UPt97CR1ZYzHmXYwlXwEvEOAXYMkfgyVvtBjAdy06Di7EVr4Ao3YeBR9fy9i3euBj3FsPBL6+lsh1NUS+IoOP8Af+ggL+nF6GX60j9OkyQp8qJWSVllGrc8jfMpW29Is4nX0hZmfjLvCfYMk7H0vueUj+rn9HxQK6dPP4WpPC0ve2BtbFCzzKHdzVugAXuqyVdQlTdAl7zrP10Kdl8JAnSxj2xAGGPV7MTS+/xL93X0CHagym3DGYcwX4aCy5Mrwld5QYwPeZ66iYj6Uslf+okxn75xpfcKfnCnwwnovWzwT+lJaQVSWEKODDHiti6KMaYp7IxPDR+XyZMZrO7NGYu8HPxZxzDuacGDGA7/UvLiGzdi6fZSYF5/k6X3C/uniBhzrBPVsfKuAf0TDk4UKGPFRA845zObn/PDrV52HOEeCjnODm7JGYs6OR/F3/YgBxEX2aPjMgeNSdO4m+esP3koglW2TwRzUMfUQGH7Iyn8EP5tG0/RxO7hvFf1WjMGXLrQtwszoKszpSDOD7bhHXv7hBj++fIYNv9Pa8lqhlO3xA+pqIJZtl8IcLGPJQPoNX5jH4gVwG3Z9D0/YY2vbGcFoVg0ktty7ATeoRmLIikPw9c8W7xVQyi+P7pvW0fgbPu3UJxvMnPT33BJdbd8Lfl8Og+7Jp3B5N255oTmdGY8qKwiTgsyIwZYVjUoWJAXyfufay2c63i2FfgsdadIH3uhY9PPfdLt6eu3RxtS7AB65QM/DeLBq3RdK2O5JTGZEYVaL1cExZYZhUwzGqQpH8PXPFa1E8uAx7493WYiBwP6277XN3cI/WBbhoPQD4wOUqBtyTSeM/IjixO4JT6REYVXLrJlUoxswQjJnDxADe73P5mWssmoZhz2QfXbyv/4C6POm7Fn08f7AHfNCKbAbeq2bg8iwG3KNiwN2ZSL/NoGFrOCf+Fcap/WEYM4d3gxszhmLMGIKEPrnD+69/8UYXz9xje+J8PXdd/37A5bXo5rnQxQO8wNNzV+t+wKW70p1p2DKcE5+E8s2+UDozBLwMbswYTGf6oA7JoU9a5tDN7HD/q8hakkCnZgqG3RPP6Ln39e/j+aPBee4CH+AG7krT1hDaPgnh1P5hdKbL4Mb0QXSmD+zo3D/g//PP9R+P2/kWpW1htxtbvCUAAAAASUVORK5CYII=" InformativeScreenshot="a9d332fbc222e1e611b0049595588202.jpg" Reference="_4BHWmow1ku1g1DhI54yog/TDEaKxe8ykmTejKXatCq4A" Selector="&lt;wnd app='explorer.exe' cls='Shell_TrayWnd' idx='*' /&gt;" Version="V3">
+          <uix:TargetApp.SapInfo>
+            <uix:SAPElementInfo IsSapSubsystem="False" WebAutomationFramework="None" />
+          </uix:TargetApp.SapInfo>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Rajarshi_Mukherjee_pfp.jpg" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,722" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" IsDisplayNameAuto="True" ScopeGuid="d05b3dae-c2a6-4a8c-8403-dfc6757c8224" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,474.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTakeScreenshot DisplayName="Take Screenshot 'Microsoft.UI.Content.De…'" FileName="screenshot.png" FileNameMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247.33333333333334" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" SaveScreenshotTo="Clipboard" ScopeIdentifier="d05b3dae-c2a6-4a8c-8403-dfc6757c8224" Version="V5">
+              <uix:NTakeScreenshot.Target>
+                <uix:TargetAnchorable ContentHash="F5ePKKvgG0CHcDyd5zYk3g" DesignTimeRectangle="11, 0, 1418, 763" DesignTimeScaleFactor="1.5" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Microsoft.UI.Content.DesktopChildSiteBridge' /&gt;" Guid="7959d8dd-cf0f-4c38-baa8-4bbf40c43fe2" InformativeScreenshot="0820f9fc71a50ce7a8c8dba696caffbc.jpg" Reference="_4BHWmow1ku1g1DhI54yog/3hwG2r95a0uo4Lp6ozZ2pA" ScopeSelectorArgument="&lt;wnd app='photos.exe' appid='Microsoft.Windows.Photos_8wekyb3d8bbwe!App' title='Rajarshi_Mukherjee_pfp.jpg' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.PointOffset>
+                    <uix:PointOffset />
+                  </uix:TargetAnchorable.PointOffset>
+                </uix:TargetAnchorable>
+              </uix:NTakeScreenshot.Target>
+            </uix:NTakeScreenshot>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Image copied successfully!&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="152, 152, 1440, 774" ContentHash="04TPJRd2KkGrP5ez7n176A" FilePath="Microsoft.Windows.Photos_8wekyb3d8bbwe!App" IconBase64="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" InformativeScreenshot="ae4354363544947340fb99c1c504eb12.jpg" Reference="_4BHWmow1ku1g1DhI54yog/RkF0NHW6eEK5qXIzt2F1Kw" Selector="&lt;wnd app='photos.exe' appid='Microsoft.Windows.Photos_8wekyb3d8bbwe!App' title='Rajarshi_Mukherjee_pfp.jpg' /&gt;" Version="V3">
+          <uix:TargetApp.SapInfo>
+            <uix:SAPElementInfo IsSapSubsystem="False" WebAutomationFramework="None" />
+          </uix:TargetApp.SapInfo>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

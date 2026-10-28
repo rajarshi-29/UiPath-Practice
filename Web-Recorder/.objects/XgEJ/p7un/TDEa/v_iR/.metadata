@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Rajarshi_Mukherjee_pfp",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "v_iRm10qzEGR2CiSf6dI5w",
+  "Reference": "_4BHWmow1ku1g1DhI54yog/v_iRm10qzEGR2CiSf6dI5w",
+  "ParentRef": "_4BHWmow1ku1g1DhI54yog/TDEaKxe8ykmTejKXatCq4A",
+  "Created": "2026-10-21T04:29:55.6082703Z",
+  "Updated": "2026-10-21T04:29:55.6082703Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

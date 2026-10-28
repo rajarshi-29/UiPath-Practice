@@ -1,0 +1,13 @@
+﻿{
+  "Name": "explorer.exe",
+  "Type": "Screen",
+  "Id": "TDEaKxe8ykmTejKXatCq4A",
+  "Reference": "_4BHWmow1ku1g1DhI54yog/TDEaKxe8ykmTejKXatCq4A",
+  "ParentRef": "_4BHWmow1ku1g1DhI54yog/p7unIpK-FUyICGLsJ5I6NQ",
+  "Created": "2026-10-21T04:28:43.7125066Z",
+  "Updated": "2026-10-21T04:28:43.7125066Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

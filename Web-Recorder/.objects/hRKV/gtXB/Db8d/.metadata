@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Software Test Engineer Training  UiPath ",
+  "Type": "Screen",
+  "Id": "Db8dl_TLT0KMh-plHLtWAQ",
+  "Reference": "_4BHWmow1ku1g1DhI54yog/Db8dl_TLT0KMh-plHLtWAQ",
+  "ParentRef": "_4BHWmow1ku1g1DhI54yog/gtXBp-ZMnkyXgC0Xw6Q8uw",
+  "Created": "2026-10-27T06:41:53.9220432Z",
+  "Updated": "2026-10-27T06:41:53.9220432Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

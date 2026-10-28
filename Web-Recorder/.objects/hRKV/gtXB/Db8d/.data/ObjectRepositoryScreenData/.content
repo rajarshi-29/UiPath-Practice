@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="Dw94uqr9ske3BlMw2peUPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1030" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFwSURBVEhL7ZWtbsMwEMf7FH2DPkHfIKA4Kq+CA8oMB8LzAFNxyVBhwLgfICotCgqMFBZ/3ORc4jm5ZdESF0zq6Y98p/vZd/Z50xy2T9WGLvnVfwPI97fRih+AYKHJnp4BQKZn1+UBIFioeCaTCOoKAHRZiDiwXg8A/bgDgGChOO11WTTHnetdBTAZcw51pT4/oK5kEmGtXC0HqGsKrWFSPIfOuVufnwEiDvC81IW7Nt42i2Chftx1WajbBQDUNaXxY4CIA9wX1BWNbg5b7KTdeHPc6bKgl8eKAFjYAQBotAH0Zvcrk0jnnEaiPADwBdBIlB/AL1oLMD1ru6JuFxrsAWAv61T8C7AKQAeLOO2tF0f/KoBMopHXzOTeEP9ngFsE+j4Vz77TtWN5CcDNonjWzbU4MDO5N8teAnCrNGW2PUsA9nedMnfyLATgOdxaoZmKDa+WbTtt2AzAqvt/hv/UIKD9gug6ah6wUi/ArJ4O+AKbHJDqarCgrgAAAABJRU5ErkJggg==" Selector="&lt;html app='msedge.exe' title='Software Test Engineer Training | UiPath Academy' /&gt;" Url="https://academy.uipath.com/learning-plans/software-test-engineer-training" Version="V3">
+      <TargetApp.SapInfo>
+        <SAPElementInfo IsSapSubsystem="False" WebAutomationFramework="Default" />
+      </TargetApp.SapInfo>
+      <imageRef attrName="InformativeScreenshot" originalValue="3156a6ed50dbdb387f27739f999e88a2.jpg" xmlns="">0K3szc__Ak02xL9V9QUwUzQ</imageRef>
+    </TargetApp>
+    <NInteractionMode x:Key="InteractionMode">DebuggerApi</NInteractionMode>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

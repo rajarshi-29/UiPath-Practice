@@ -1,0 +1,14 @@
+﻿{
+  "Name": "button File Explorer pi…",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "8if3JCrBmkq4J63hdWJZ6Q",
+  "Reference": "_4BHWmow1ku1g1DhI54yog/8if3JCrBmkq4J63hdWJZ6Q",
+  "ParentRef": "_4BHWmow1ku1g1DhI54yog/TDEaKxe8ykmTejKXatCq4A",
+  "Created": "2026-10-21T04:28:45.6853284Z",
+  "Updated": "2026-10-21T04:28:45.6853284Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
